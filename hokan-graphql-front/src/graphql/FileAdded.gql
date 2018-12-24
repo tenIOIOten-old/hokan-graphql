@@ -1,0 +1,7 @@
+#import "./FileFragment.gql"
+
+subscription fileAdded {
+  fileAdded: uploadAdded {
+    ...File
+  }
+}
